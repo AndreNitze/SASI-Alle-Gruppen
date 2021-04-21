@@ -41,6 +41,6 @@ public class NitzeAppApplication {
 
 	@PostMapping("/goodbye")
 	public String goodbye(@RequestParam(value = "id") String id) {
-		return null;
+		return "Goodbye!";
 	}
 }
